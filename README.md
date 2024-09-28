@@ -1,5 +1,7 @@
 MedScript is a medical prescription management system designed to streamline interactions between patients, physicians, and administrators. The application offers a secure, user-friendly interface for handling patient registrations, managing physician-patient relationships, and creating and managing prescriptions.
 
+
+**** Before running the application please send a GET request to the http://localhost:8081/auth/startapp (host can be chnaged in resources/application.properties) ****
 MedScript provides three main roles:
 
   Patient
@@ -56,3 +58,9 @@ API Configuration
   The API configurations, including database settings, can be found and modified in the resources/application.properties file.
 Prescription Storage
   All prescriptions are stored securely on the server, allowing patients and physicians to access them as needed.
+
+**** Before running the application please send a GET request to the http://localhost:8081/auth/startapp (host can be chnaged in resources/application.properties) ****
+
+Starting the application: 
+1) run the src/main/java/group11/medScriptAPI/MedScriptApiApplication.java of the MedScriptAPI
+2) cd into myVueProject and run: npm run dev
